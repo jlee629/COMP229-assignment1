@@ -6,8 +6,50 @@
 .navbar-text {
     font-size: 1em;
     font-weight: bold;
+    color:black;
 }
 
 .navbar-nav {
     font-weight: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 85.5vh;
+    align-items: center;
+}
+
+
+
+.intro {
+    margin-top: -300px;
+    margin-bottom: 150px;
+}
+
+
+.ms, .ms-quote {
+    text-align: center;
+}
+
+.about-link {
+    margin-top: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    color: #3895D3;
+    font-weight: bold;
+}
+
+.about-link:hover {
+    color: black;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+.navbar-brand {
+    position: absolute;
+    right: -2px;
+}
 }
