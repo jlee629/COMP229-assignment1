@@ -1,1 +1,13 @@
 /* custom css goes here */
+.navbar-brand {
+    position: absolute;
+}
+
+.navbar-text {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
