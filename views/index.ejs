@@ -6,15 +6,15 @@
  
   <!-- Main Content -->
   
-  <main class="container">
-    
-    <div class="index-content">    
-      <h3 class="intro">Welcome to the <%= title %> Page</h3>
-      <h4 class="ms">Mission Statement</h4>
-      <p class="ms-quote">I am the inspiration</p>
-      <a class="about-link" href="/about">I will walk you through my story</a>
-    </div>
-  </main>
+  
+<div class="content" style="background-image: url('Assets/images/indexbg.jpeg'); background-size: cover">    
+  <div class="empty-space"></div>
+  <h3 class="intro"><%= title %></h3>
+  <h4 class="ms">Mission Statement</h4>
+  <p class="ms-quote">"I am the inspiration"</p>
+  <p><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></p>
+  <a class="about-link" href="/about">Let me walk you through my story</a>
+</div>
 
   
 <%- include partials/bottom_nav.ejs %>  

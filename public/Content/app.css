@@ -3,53 +3,99 @@
     position: absolute;
 }
 
+.navbar-above {
+    border-bottom: 3px solid whitesmoke;
+}
+
+.navbar-below {
+    border-top: 3px solid whitesmoke;
+}
+
 .navbar-text {
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
-    color:black;
+    color:whitesmoke;
 }
 
 .navbar-nav {
     font-weight: bold;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    height: 85.5vh;
-    align-items: center;
+.empty-space {
+    padding-bottom:10px;
 }
 
-
+.content {
+    text-align: center;
+    height: 90vh;
+    background-color:whitesmoke;
+}
 
 .intro {
-    margin-top: -300px;
-    margin-bottom: 150px;
+    font-size:40px;
+    color:whitesmoke;
+    font-variant: small-caps;
 }
 
+.about-intro {
+    color: #2b2c2e;
+}
 
-.ms, .ms-quote {
-    text-align: center;
+.ms {
+    margin-top: 180px;
+    font-size: 50px;
+}
+
+.ms-quote {
+    margin-top: 40px;
+    font-family: cursive;
+    font-size: 30px;
 }
 
 .about-link {
-    margin-top: 40px;
     display: block;
     width: 100%;
     text-align: center;
     font-size: 1em;
-    color: #3895D3;
+    color: #2b2c2e;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .about-link:hover {
     color: black;
     font-weight: bold;
+    font-size: 2em;
 }
+
+.myphoto {
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 35px;
+}
+
+.mydescription {
+    color:#2b2c2e;
+    font-family:cursive;
+    font-size: 20px;
+}
+
+.resume {
+    text-decoration: none;
+    color:#2b2c2e;
+}
+
+.resume:hover {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
 
 @media only screen and (max-width: 992px) {
 .navbar-brand {
     position: absolute;
     right: -2px;
+    top: 3px;
 }
 }

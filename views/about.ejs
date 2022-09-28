@@ -5,16 +5,23 @@
 
  
   <!-- Main Content -->
-  
-  <main class="container">
-    <div>
-      <h3 class="intro">Welcome to the <%= title %> Page</h3>
-      <h4 class="ms">About Me</h4>
-      <img src="/Assets/images/me.jpg" alt="logo" width="200" height="200">
-      <a class="about-link" href="/about">I will walk you through my story</a>
-    </div>
-  </main>
+ 
+<div class="content" style="background-image: url('Assets/images/aboutbg.jpg'); background-size: cover">    
+  <div class="empty-space"></div>
+  <h3 class="intro about-intro"><%= title %></h3>
+  <div class="about-content">
+    <img class="myphoto" src="/Assets/images/myself.png" alt="logo" width="200" height="200">   
+    <p class="mydescription">Hello, I am Jungyu Lee.</p> 
+    <p class="mydescription">I am studying Artificial Intelligence.</p> 
+    <p class="mydescription">I genuinely love programming languages.</p> 
+    <p class="mydescription">When I propose to someone I love one day,</p>
+    <p class="mydescription">I might use one of programming languages,</p>
+    <p class="mydescription">neither English nor Korean. I am deadly serious. <i class="fa-solid fa-face-laugh-beam"></i></p> 
+    <p class="mydescription"><a class="resume" href="https://drive.google.com/file/d/1BFvuxDSpYyeYtCwb9j2lX-kW0Lrjg-_n/view?usp=sharing">This is my resume <i class="fa-regular fa-file"></i></a></p>
+  </div>
+</div>
 
+ 
   
 <%- include partials/bottom_nav.ejs %>  
 
