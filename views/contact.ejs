@@ -10,15 +10,32 @@
 <div class="content" style="background-image: url('Assets/images/contactbg.webp'); background-size: cover">    
   <div class="empty-space"></div>
   <h3 class="intro contact-intro"><%= title %></h3>
-  <h4 class="contactinfo">You can reach me at</h4>
-  <h4 class="phone"><i class="fa-solid fa-mobile"></i> +1 (647) 618-9121</h4>
-  <h4 class="email"><i class="fa-solid fa-envelope"></i> jlee629@my.centennialcollege.ca</h4>
-  <h4 class="contactinfo">OR</h4>
-  <h4 class="contactinfo">send me a message down here!</h4>
-  <form action="mailto:jlee629@my.centennialcollege.ca" method="POST" enctype="text/plain" name="EmailForm">
-  
+  <p class="phone"><i class="fa-solid fa-mobile"></i> +1 (647) 618-9121</p>
+  <p class="email"><i class="fa-solid fa-envelope"></i> jlee629@my.centennialcollege.ca</p>
+  <p class="contactinfo">Direct Message to Me</p>
+  <form action="mailto:jlee629@my.centennialcollege.ca" method="GET">
+    <div>
+        <label class="form-label" for="first-name">First Name</label><br>
+        <input class="form-input" id="first-name" type="text">
+    </div>
+    <div>
+        <label class="form-label" for="last-name">Last Name</label><br>
+        <input class="form-input" id="last-name" type="text">
+    </div>
+    <div>
+        <label class="form-label" for="email">E-mail</label><br>
+        <input class="form-input" id="email" type="email">
+    </div>
+    <div>
+        <label class="form-label" for="number">Contact Number</label><br>
+        <input class="form-input" id="number" type="text">
+    </div>
+        <div>
+        <label class="form-label" for="message">Message</label><br>
+        <input class="form-input message-box" id="message" type="text">
+    </div>
+    <input type="submit" class="form_submit" value="SEND">
   </form>
-
 </div>
 
   

@@ -106,8 +106,14 @@
 }
 
 .contactinfo {
-    margin-top: 30px;
+    font-weight: bold;
 }
+
+.message-box {
+    width:200px;
+    height: 150px;
+}
+
 @media only screen and (max-width: 992px) {
 .navbar-brand {
     position: absolute;
