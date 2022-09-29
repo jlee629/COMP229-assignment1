@@ -1,4 +1,10 @@
-/* custom css goes here */
+/* custom css goes here 
+
+app.css, Jungyu Lee, 301236221, Sep 29 2022
+
+*/
+
+
 .body {
     background-color: whitesmoke;
     margin: 0 auto;
@@ -123,9 +129,8 @@
 
 .myservices {
     color:#2b2c2e;
-    margin-top: 120px;
+    margin-top: 80px;
     font-size: 50px;
-    margin-bottom: 150px;
 }
 
 .skillset {
@@ -209,7 +214,7 @@
 
 .mycontact{
     font-size: 40px;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 

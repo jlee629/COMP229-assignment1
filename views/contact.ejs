@@ -8,8 +8,8 @@
   
   
 <div class="content"">    
-  <h3 class="intro about-intro"><%= title %></h3>
-  <form action="mailto:won12054@gmail.com" method="post" enctype="text/plain">
+  <%- include partials/content.ejs %>
+  <form>
     <fieldset>   
       <legend class="legend mycontact">Send me a message!</legend> 
         <div>
@@ -32,7 +32,7 @@
             <label class="form-label" for="message">Message</label><br>
             <textarea class="form-input message-box" id="message" type="text"></textarea>
         </div>
-        <input type="submit" class="form-submit" value="SEND">
+        <input type="button" id="submit" class="form-submit" value="SEND">
     </fieldset>
   </form>
   <div class="direct-contacts">
