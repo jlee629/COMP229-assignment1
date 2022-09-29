@@ -114,6 +114,27 @@
     height: 150px;
 }
 
+.legend {
+    margin-top: 40px;
+}
+
+.form-label {
+    font-size: 15px;
+    margin-bottom: -3px;
+    font-weight: bold;
+}
+
+.form-input {
+    margin-bottom: 2px;
+}
+
+.form-submit{
+    background-color: black;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
 @media only screen and (max-width: 992px) {
 .navbar-brand {
     position: absolute;
