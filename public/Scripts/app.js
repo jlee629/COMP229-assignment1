@@ -1,5 +1,7 @@
 /* 
 
+custom JavaScript goes here
+
 app.js, Jungyu Lee, 301236221, Sep 29 2022
 
 */
