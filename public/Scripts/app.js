@@ -16,6 +16,8 @@ app.js, Jungyu Lee, 301236221, Sep 29 2022
 
 })();
 
+// on Contact page, if submit button is clicked, the information will be shown as a pop up message, and the user will be redirected to home page.
+
 let fname = document.getElementById('first-name');
 let lname = document.getElementById('last-name');
 let email = document.getElementById('email');
