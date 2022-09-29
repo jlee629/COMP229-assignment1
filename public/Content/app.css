@@ -1,6 +1,7 @@
 /* custom css goes here */
 .body {
-    background-color: #2b2c2e;
+    background-color: whitesmoke;
+    margin: 0 auto;
 }
 
 .navbar-brand {
@@ -32,17 +33,34 @@
 .content {
     text-align: center;
     height: 100vh;
-    background-color:whitesmoke;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,56,85,1) 0%, rgba(229,245,249,1) 0%, rgba(242,249,251,1) 51%, rgba(192,241,251,1) 100%, rgba(36,217,254,1) 100%, rgba(0,212,255,1) 100%);
+    margin: 0 auto;
 }
 
 .intro {
     font-size:40px;
-    color:whitesmoke;
+    color:#2b2c2e;
     font-variant: small-caps;
 }
 
-.about-intro, .services-intro, .contact-intro {
+.about-intro {
+    background-color: #2b2c2e;
+    color:whitesmoke;
+}
+
+.services-intro, .contact-intro {
     color: #2b2c2e;
+}
+
+.about-content {
+    width:640px;
+    margin: 0 auto;
+}
+
+.note {
+    width: 640px;
+    margin: 0 auto;
+    height: 100vh;
 }
 
 .ms {
@@ -73,7 +91,7 @@
 }
 
 .myphoto {
-    margin-top: 10px;
+    margin-top: 70px;
     border-radius: 20px;
     margin-bottom: 35px;
 }
@@ -82,11 +100,13 @@
     color:#2b2c2e;
     font-family:cursive;
     font-size: 20px;
+    text-align: center;
 }
 
 .resume {
     text-decoration: none;
-    color:#2b2c2e;
+    color:#045e94;
+    text-decoration: underline;
 }
 
 .resume:hover {
@@ -95,47 +115,69 @@
     font-size: 1.2em;
 }
 
-.git-link {
-    text-decoration: none;
+
+.myprojects {
+    font-size:30px;
+    margin-top:30px;
 }
 
-.project-description:first-child{
-    margin-top:20px;
+.project-images {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
 
 .project-photo {
+    display:block;
     margin-bottom: 10px;
-    display: inline-block;
     margin-top:60px;
-    position: relative;
-    margin-bottom: 80px;
 }
 
-.project3-photo {
-    margin-right:0;
+.project-descriptions {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
 }
 
 .project-description {
-    display: inline-block;
-    font-size:20px;
-    font-weight: bold;
-    color:whitesmoke;
-    background-color:#2b2c2e;
-    text-align: center;
+    text-align:center;
+    width:300px;
+    background-color: #2b2c2e;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 5px;
 }
-
 
 .myservices {
     color:#2b2c2e;
-    margin-top: 70px;
+    margin-top: 120px;
     font-size: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 150px;
+}
+
+.skillset {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.skill-name{
+    background-color:whitesmoke;
+    color:#2b2c2e;
+    font-weight: bold;
+    text-align: center;
+    width:100%;
+    display: inline-block;
 }
 
 .skills {
-    color: #2b2c2e;
-    font-weight: bold;
-    font-size:25px;
+    text-align: center;
+    width:500px;
+    font-size: 15px;
+    background-color: #2b2c2e;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 5px;
 }
 
 .contactinfo {
@@ -166,6 +208,35 @@
     color: whitesmoke;
     margin-bottom: 20px;
     margin-top: 15px;
+}
+
+.direct-contacts {
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    position: relative;
+    bottom:0;
+    
+} 
+
+.direct-contact {
+    text-align: center;
+    width:300px;
+    background-color: #2b2c2e;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.footer {
+    position:fixed;
+    width: 53.9%;
+    bottom:0;
+}
+
+.mycontact{
+    font-size: 40px;
+    margin-top: 80px;
 }
 
 
