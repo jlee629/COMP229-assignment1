@@ -110,6 +110,7 @@ app.css, Jungyu Lee, 301236221, Sep 29 2022
 }
 
 .project-images {
+    margin-top: -30px;
     display:flex;
     flex-direction: row;
     justify-content:space-around;
