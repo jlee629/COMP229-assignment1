@@ -12,7 +12,7 @@ app.css, Jungyu Lee, 301236221, Sep 29 2022
 
 .content {
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,56,85,1) 0%, rgba(229,245,249,1) 0%, rgba(242,249,251,1) 51%, rgba(192,241,251,1) 100%, rgba(36,217,254,1) 100%, rgba(0,212,255,1) 100%);
     margin: 0 auto;
 }
